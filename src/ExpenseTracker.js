@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react'
 import { TransContext } from './GlobalContext'
 
-const TaskManager = () => {
+const ExpenseTracker = () => {
 
     const { transactions, addTransaction,delTransaction } = useContext(TransContext);
     let [newDesc, setDesc] = useState('');
@@ -110,4 +110,4 @@ const TaskManager = () => {
     )
 }
 
-export default TaskManager
+export default ExpenseTracker

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import TaskManager from './TaskManager';
+import ExpenseTracker from './ExpenseTracker';
 import {GlobalProvider} from './GlobalContext'
 
 function App() {
   return (
     <GlobalProvider>
-      <TaskManager />
+      <ExpenseTracker />
     </GlobalProvider>
   );
 }
