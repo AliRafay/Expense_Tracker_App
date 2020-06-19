@@ -1,0 +1,138 @@
+body{
+    background:linear-gradient(100deg,#c0c0c7 50%,#808070 0);
+}
+
+.container{
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+    color: white;
+    width: max-content;
+    margin:0 auto;
+    background-color: #460046;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px purple;
+}
+
+h1{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h5{
+    margin-top: 0;
+    text-align: center;
+}
+
+h3{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.income-expense{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    box-shadow:0 0 8px;
+    font-size: larger;
+}
+
+.income, .expense{
+    text-align: center;
+    font-weight: 600;
+}
+.income span{
+    color: #00ff00;
+    font-size: larger;
+
+}
+.expense span {
+    color: red;
+    font-size: larger;
+
+}
+.history{
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    
+}
+
+.list-item-div{
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    margin-top: 10px ;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 4px;
+    border-radius: 100px;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    float: right;
+    margin-top: 5px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.income-transaction{
+    border-right:#00ff00 solid 15px;
+    border-left: #00ff00 solid 15px;
+}
+
+.expense-transaction{
+    border-right: red solid 15px;
+    border-left: red solid 15px;
+}
+
+label {
+    font-size: larger;
+}
+
+input{
+    width: 93%;
+    font-size: larger;
+    border-radius: 10px;
+    border-color: transparent;
+    padding-left: 8px;
+    margin-top: 10px;
+    background-color: white;
+    outline: none;
+}
+
+.record{
+    width: 97%;
+    color: white;
+    background-color: #7d007d;
+    border-radius: 10px;
+    border: 3px ;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    transition: ease 0.4s;
+}
+
+.record:hover{
+    cursor: pointer;
+    background-color: #620062;
+}
+button:focus,button:active{
+    outline: none;
+}
