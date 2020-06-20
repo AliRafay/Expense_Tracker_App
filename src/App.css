@@ -1,12 +1,13 @@
 body{
     background:linear-gradient(100deg,#c0c0c7 50%,#808070 0);
+    
 }
 
 .container{
     margin-top: 100px !important;
     margin-bottom: 100px !important;
     color: white;
-    width: max-content;
+    width: fit-content;
     margin:0 auto;
     background-color: #460046;
     padding: 30px;
