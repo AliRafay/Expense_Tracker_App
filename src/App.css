@@ -105,6 +105,11 @@ label {
     font-size: larger;
 }
 
+label span{
+    font-size: 15px;
+    
+}
+
 input{
     width: 93%;
     font-size: large;

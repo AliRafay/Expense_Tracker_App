@@ -101,6 +101,7 @@ const ExpenseTracker = () => {
                             value={newAmount}
                             onChange={(ev) => setAmount(ev.target.value)} />
                     </label>
+                    <br/><span>(Enter +ve for Income and -ve for expense)</span>
                     <br />
                     <button className='record'>Add Record</button>
                 </form>
