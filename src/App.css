@@ -107,13 +107,17 @@ label {
 
 input{
     width: 93%;
-    font-size: larger;
+    font-size: large;
     border-radius: 10px;
     border-color: transparent;
     padding-left: 8px;
     margin-top: 10px;
     background-color: white;
     outline: none;
+}
+
+input::placeholder{
+    font-size: medium;
 }
 
 .record{
