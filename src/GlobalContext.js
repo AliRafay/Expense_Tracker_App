@@ -2,11 +2,11 @@ import React, { useReducer } from 'react'
 import { createContext } from 'react'
 import {AppReducer} from './AppReducer'
 
-const InitialTransactions = [
+const InitialTransactions = []
     // { id: 1, desc: 'books', amount: 40 },
     // { id: 2, desc: 'bill', amount: -60 },
     // { id: 3, desc: 'salary', amount: 300 },
-]
+
 export const TransContext = createContext(InitialTransactions);
 
 export const GlobalProvider = ({children})=>{
