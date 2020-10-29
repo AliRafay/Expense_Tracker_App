@@ -21,6 +21,16 @@ export const GlobalProvider = ({children})=>{
                 id:transObj.id
             },
         })
+        const data={id:transObj.id,desc:transObj.desc,amount:transObj.amount}
+        const options = {
+            method:"Post",
+            body: JSON.stringify(data),
+            header: {
+                'Content-Type':'application/json'
+            },
+            mode:'no-cors'
+        }
+        fetch("https://localhost:44304/WeatherForecast/form", options);
     }
 
     function delTransaction(id) {
