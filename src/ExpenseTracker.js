@@ -28,7 +28,7 @@ const ExpenseTracker = () => {
     }
 
     let onSubmit = (event) => {
-        event.preventDefault();
+        event.preventDefault(); //if we prevent default then can't take action on form submission
 
         if (Number(newAmount) === 0) {
             alert("Zero is not a valid value");
@@ -87,7 +87,9 @@ const ExpenseTracker = () => {
                 <center>
                     <h2>Add New Record</h2>
                 </center> <hr />
-                <form onSubmit={onSubmit}>
+                <form  
+                onSubmit={onSubmit}
+                >
                     <label>
                         Description
                         <input type="text" placeholder='Enter Description' required
